@@ -1,6 +1,6 @@
 const authorization = require("../middlewares/authorization");
 const pool = require("../db");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const generateToken = require("../utils/tokengenerator")
 const validInfo = require("../middlewares/validInfo")
 
